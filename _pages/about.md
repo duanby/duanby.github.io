@@ -25,24 +25,24 @@ reproducibility in science and technology
 Submission and Ongoing Projects
 =======
 * Interactive Martingale Tests for the Global Null ([arXiv](https://arxiv.org/pdf/1909.07339.pdf))
-Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman
+:Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman
 
 * Familywise error rate control by interactive unmasking ([arXiv](https://arxiv.org/pdf/2002.08545.pdf))
-Boyan Duan, Aaditya Ramdas, Larry Wasserman
+:Boyan Duan, Aaditya Ramdas, Larry Wasserman
 
 * Interactive rank tests (ongoing)
-Boyan Duan, Aaditya Ramdas, Larry Wasserman
+:Boyan Duan, Aaditya Ramdas, Larry Wasserman
 
 Education
 =======
 * Ph.D. in Statistics, 2021 (expected)
-Carnegie Mellon University, Pittsburgh, USA
+:Carnegie Mellon University, Pittsburgh, USA
 
 * B.S. in Statistics, 2016
-University of Science and Technology of China, Hefei
+:University of Science and Technology of China, Hefei
 
 * Intern in Computer Science, 2015
-University of Birmingham, UK
+:University of Birmingham, UK
 
 Teaching Assistant
 =======

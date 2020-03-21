@@ -49,8 +49,8 @@ Education
 Teaching Assistant
 =======
 * 36-218 Probability Theory for Computer Scientists (Head TA)
-* 36-708 Statistical Methods in Machine Learning (PhD Level Class)
-* 36-705 Intermediate Statistics (PhD Level Class)
+* 36-708 Statistical Methods in Machine Learning (PhD Level)
+* 36-705 Intermediate Statistics (PhD Level)
 * 46-927  Statistical Machine Learning II
 * 36-410 Introduction to Probability Modeling
 * 36-401 Modern Regression

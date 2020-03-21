@@ -10,7 +10,9 @@ redirect_from:
 
 My name is Boyan Duan, and I am a Ph.D. student in the Department of [Statistics & Data Science at Carnegie Mellon Univeristy](http://stat.cmu.edu). My primary research interests are statistical inference methodologies with data adaptiveness.
 
-I am very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We are working on developing human-in-the-loop algorithm for hypothesis testing.
+I am very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We are working on developing human-in-the-loop algorithms for hypothesis testing.
+
+[Curriculum Vitae](https://github.com/duanby/duanby.github.io/blob/master/files/cv.pdf)
 
 Research Interests
 ======

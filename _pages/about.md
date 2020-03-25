@@ -52,7 +52,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 
 
 * Interactive rank tests (ongoing)
-#### Boyan Duan, Aaditya Ramdas, Larry Wasserman
+: #### Boyan Duan, Aaditya Ramdas, Larry Wasserman
 : In a nonparametric setting where the underlying distribution is unknown, classical tests to compare multiple samples are based on the ranking of the observations, such as the Wilcoxon signed-rank test. We propose rank tests that adjust for covariates in an interactive manner: a human analyst may adaptively design and adjust the algorithm using observed data, covariates, domain knowledge of any form, etc. We developed the interactive rank tests for several nonparametric testing problems: comparing two/multiple samples with paired/unpaired data.  Shown by numerical experiments, theoretical power analysis, and a real data application of comparing two medical treatments, the interactive rank tests have higher power than the classical tests when the difference between samples exists only in a small subpopulation.
 
 Previous Projects

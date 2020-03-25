@@ -27,13 +27,13 @@ Education
 
 Research Interests
 ======
-Human-in-the-loop interactive testing
+* Human-in-the-loop interactive testing
 
-Multiple testing
+* Multiple testing
 
-Nonparametric testing
+* Nonparametric testing
 
-Reproducibility in science and technology
+* Reproducibility in science and technology
 
 Submission and Ongoing Projects
 =======
@@ -41,7 +41,7 @@ Submission and Ongoing Projects
 : Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman
 : Presented in [MCP](http://www.mcp-conference.org/hp/2019/) (International Conference on Multiple Comparison Procedures) in Dec., 2019.
 : Global null testing is a classical problem going back about a century to Fisher’s and Stouffer’s
-combination tests. In this work, we present simple martingale analogs of these classical tests,
+combination tests. We present simple martingale analogs of these classical tests,
 which are applicable in two distinct settings: (a) the online setting in which there is a possibly
 infinite sequence of p-values, and (b) the batch setting, where one uses prior knowledge to preorder
 the hypotheses. Built on the martingale analogs, we use a recent idea of “masking” p-values and develop a novel interactive test for the global null, which can take advantage of covariates and repeated user guidance to create a data-adaptive ordering that achieves higher detection power against structured alternatives.
@@ -52,9 +52,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 
 
 * Interactive rank tests (ongoing)
-
 Boyan Duan, Aaditya Ramdas, Larry Wasserman
-
 In a nonparametric setting where the underlying distribution is unknown, classical tests to compare multiple samples are based on the ranking of the observations, such as the Wilcoxon signed-rank test. We propose rank tests that adjust for covariates in an interactive manner: a human analyst may adaptively design and adjust the algorithm using observed data, covariates, domain knowledge of any form, etc. We developed the interactive rank tests for several nonparametric testing problems: comparing two/multiple samples with paired/unpaired data.  Shown by numerical experiments, theoretical power analysis, and a real data application of comparing two medical treatments, the interactive rank tests have higher power than the classical tests when the difference between samples exists only in a small subpopulation.
 
 Previous Projects

@@ -38,20 +38,20 @@ Research Interests
 
 Submission and Ongoing Projects
 =======
-* Interactive Martingale Tests for the Global Null ([arXiv](https://arxiv.org/pdf/1909.07339.pdf))
-: Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman
+### Interactive Martingale Tests for the Global Null ([arXiv](https://arxiv.org/pdf/1909.07339.pdf))
+: **Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman**
 : Global null testing is a classical problem going back about a century to Fisher’s and Stouffer’s
 combination tests. We present simple martingale analogs of these classical tests,
 which are applicable in two distinct settings: (a) the online setting in which there is a possibly
 infinite sequence of p-values, and (b) the batch setting, where one uses prior knowledge to preorder
 the hypotheses. Built on the martingale analogs, we use a recent idea of “masking” p-values and develop a novel interactive test for the global null, which can take advantage of covariates and repeated user guidance to create a data-adaptive ordering that achieves higher detection power against structured alternatives.
 
-* Familywise error rate control by interactive unmasking ([arXiv](https://arxiv.org/pdf/2002.08545.pdf))
-: Boyan Duan, Aaditya Ramdas, Larry Wasserman
+### Familywise error rate control by interactive unmasking ([arXiv](https://arxiv.org/pdf/2002.08545.pdf))
+: **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : We propose a method for multiple hypothesis testing with familywise error rate (FWER) control, called the i-FWER test. Most testing methods are predefined algorithms that do not allow modifications after observing the data. However, in practice, analysts tend to choose a promising algorithm after observing the data; unfortunately, this violates the validity of the conclusion. The i-FWER test allows much flexibility: a human (or a computer program acting on the human's behalf) may adaptively guide the algorithm in a data-dependent manner. We prove that our test controls FWER if the analysts adhere to a particular protocol of "masking" and "unmasking". We demonstrate via numerical experiments the power of our test under structured non-nulls, and then explore new forms of masking.
 
 
-* Interactive rank tests (ongoing)
+### Interactive rank tests (ongoing)
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : In a nonparametric setting where the underlying distribution is unknown, classical tests to compare multiple samples are based on the ranking of the observations, such as the Wilcoxon signed-rank test. We propose rank tests that adjust for covariates in an interactive manner: a human analyst may adaptively design and adjust the algorithm using observed data, covariates, domain knowledge of any form, etc. We developed the interactive rank tests for several nonparametric testing problems: comparing two/multiple samples with paired/unpaired data.  Shown by numerical experiments, theoretical power analysis, and a real data application of comparing two medical treatments, the interactive rank tests have higher power than the classical tests when the difference between samples exists only in a small subpopulation.
 

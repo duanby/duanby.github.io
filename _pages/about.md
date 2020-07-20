@@ -46,7 +46,7 @@ which are applicable in two distinct settings: (a) the online setting in which t
 infinite sequence of p-values, and (b) the batch setting, where one uses prior knowledge to preorder
 the hypotheses. Built on the martingale analogs, we use a recent idea of “masking” p-values to develop a novel interactive test for the global null. It can take advantage of covariates and repeated user guidance to create a data-adaptive ordering that achieves higher detection power against structured alternatives.
 
-* Familywise error rate control by interactive unmasking <small>(ICML, 2020) [arxiv](https://arxiv.org/pdf/2002.08545.pdf) [code](https://github.com/duanby/i-FWER)</small>
+* Familywise error rate control by interactive unmasking <small>(ICML, 2020) [arxiv](https://arxiv.org/pdf/2002.08545.pdf) [code](https://github.com/duanby/i-FWER) [talk](https://icml.cc/virtual/2020/poster/6595)</small>
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : We propose a method for multiple hypothesis testing with familywise error rate (FWER) control, called the i-FWER test. Most testing methods are predefined algorithms that do not allow modifications after observing the data. However, in practice, analysts tend to choose a promising algorithm after observing the data; unfortunately, this violates the validity of the conclusion. The i-FWER test allows much flexibility: a human (or a computer program acting on the human's behalf) may adaptively guide the algorithm in a data-dependent manner. We prove that our test controls FWER if the analysts adhere to a particular protocol of "masking" and "unmasking". We demonstrate via numerical experiments the power of our test under structured non-nulls and then explore new forms of masking.
 
@@ -57,7 +57,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 
 Previous Projects
 =======
-Although not related to my current research interests, I did some interesting projects in previous years.
+Although not related to my current research interests, I did some projects in previous years.
 
 * Perception of security over time in the Democratic Republic of Congo
 : **with Robin Mejia, Anjali Mazumder, Patrick Vinck, Phuong Pham**

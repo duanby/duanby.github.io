@@ -38,7 +38,7 @@ Research Interests
 
 Papers and submissions
 =======
-* Interactive Martingale Tests for the Global Null <small> (EJS,2020) [arxiv](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
+* Interactive Martingale Tests for the Global Null <small> (EJS, 2020) [arxiv](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
 : **Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman**
 : Global null testing is a classical problem going back about a century to Fisher’s and Stouffer’s
 combination tests. We present simple martingale analogs of these classical tests,

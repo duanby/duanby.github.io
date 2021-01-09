@@ -38,7 +38,7 @@ Research Interests
 
 Papers and submissions
 =======
-* Interactive Martingale Tests for the Global Null <small> (EJS, major revision) [arxiv](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
+* Interactive Martingale Tests for the Global Null <small> (EJS,2020) [arxiv](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
 : **Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman**
 : Global null testing is a classical problem going back about a century to Fisher’s and Stouffer’s
 combination tests. We present simple martingale analogs of these classical tests,
@@ -51,7 +51,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 : We propose a method for multiple hypothesis testing with familywise error rate (FWER) control, called the i-FWER test. Most testing methods are predefined algorithms that do not allow modifications after observing the data. However, in practice, analysts tend to choose a promising algorithm after observing the data; unfortunately, this violates the validity of the conclusion. The i-FWER test allows much flexibility: a human (or a computer program acting on the human's behalf) may adaptively guide the algorithm in a data-dependent manner. We prove that our test controls FWER if the analysts adhere to a particular protocol of "masking" and "unmasking". We demonstrate via numerical experiments the power of our test under structured non-nulls and then explore new forms of masking.
 
 
-* Which Wilcoxon should we use? An interactive rank test and other alternatives <small>(submitted to the Biometrical Journal, Special Issue on Multiple Comparisons Procedures) [arxiv](https://arxiv.org/pdf/2009.05892.pdf) </small>
+* Which Wilcoxon should we use? An interactive rank test and other alternatives <small>(Biometrical Journal, Special Issue on Multiple Comparisons Procedures, revision) [arxiv](https://arxiv.org/pdf/2009.05892.pdf) [code](https://github.com/duanby/interactive-rank) </small>
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : Classical nonparametric tests to compare multiple samples, such as the Wilcoxon test, are often based on the ranks of observations. We design an interactive rank test called i-Wilcoxon—an analyst is allowed to adaptively guide the algorithm using observed outcomes, covariates, working models and prior knowledge—that guarantees type-I error control using martingales. Numerical experiments demonstrate the advantage of (an automated version of) our algorithm under heterogeneous treatment effects. The i-Wilcoxon test is first proposed for two-sample comparison with unpaired data, and then extended to paired data, multi-sample comparison, and sequential settings, thus also extending the Kruskal-Wallis and Friedman tests. As alter- natives, we numerically investigate (non-interactive) covariance-adjusted variants of the Wilcoxon test, and provide practical recommendations based on the anticipated population properties of the treatment effects.
 

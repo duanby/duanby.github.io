@@ -29,9 +29,9 @@ Research Interests
 ======
 * Human-in-the-loop interactive testing
 
-* Multiple testing
+* Multiple testing and nonparametric testing
 
-* Nonparametric testing
+* Causal inference: identifications under heterogeneous treatment effect
 
 * Reproducibility in science and technology
 
@@ -56,8 +56,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 : Classical nonparametric tests to compare multiple samples, such as the Wilcoxon test, are often based on the ranks of observations. We design an interactive rank test called i-Wilcoxon—an analyst is allowed to adaptively guide the algorithm using observed outcomes, covariates, working models and prior knowledge—that guarantees type-I error control using martingales. Numerical experiments demonstrate the advantage of (an automated version of) our algorithm under heterogeneous treatment effects. The i-Wilcoxon test is first proposed for two-sample comparison with unpaired data, and then extended to paired data, multi-sample comparison, and sequential settings, thus also extending the Kruskal-Wallis and Friedman tests. As alter- natives, we numerically investigate (non-interactive) covariance-adjusted variants of the Wilcoxon test, and provide practical recommendations based on the anticipated population properties of the treatment effects.
 
 
-* Interactive identification of individuals
-with positive treatment effect while controlling false discoveries <small> [arxiv](https://arxiv.org/pdf/2102.10778.pdf) [code](https://github.com/duanby/I-cube) </small>
+* Interactive identification of individuals with positive treatment effect while controlling false discoveries <small> [arxiv](https://arxiv.org/pdf/2102.10778.pdf) [code](https://github.com/duanby/I-cube) </small>
 : **Boyan Duan, Larry Wasserman, Aaditya Ramdas**
 : Out of the participants in a randomized experiment with anticipated heterogeneous treatment effects, is it possible to identify which ones have a positive treatment effect, even though each has only taken either treatment or control but not both? While subgroup analysis has received attention, claims about individual participants are more challenging. We frame the problem in terms of multiple hypothesis testing: we think of each individual as a null hypothesis (the potential outcomes are equal, for example) and aim to identify individuals for whom the null is false (the treatment potential outcome stochastically dominates the control, for example). We develop a novel algorithm that identifies such a subset, with nonasymptotic control of the false discovery rate (FDR). Our algorithm allows for interaction — a human data scientist (or a computer program acting on the human’s behalf) may adaptively guide the algorithm in a data-dependent manner to gain high identification power. We also propose several extensions: (a) relaxing the null to nonpositive effects, (b) moving from unpaired to paired samples, and (c) subgroup identification. We demonstrate via numerical experiments and theoretical analysis that the proposed method has valid FDR control in finite samples and reasonably high identification power.
 

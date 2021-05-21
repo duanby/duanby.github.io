@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I am very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We work on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems.
+I am a Ph.D. student in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I am very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We work on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems. Here is my [thesis (working draft)](https://duanby.github.io/files/boyan_defense_latex.pdf).
 
-Here is my [Curriculum Vitae](https://duanby.github.io/files/cv.pdf).
+Here is my [Curriculum Vitae](https://duanby.github.io/files/cv.pdf). 
 
 
 Education

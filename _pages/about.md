@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I am very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We work on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems. Here is my [thesis (working draft)](https://duanby.github.io/files/boyan_defense_latex.pdf).
+I am a Data Scientist in Google. Before that, I just got my Ph.D. degree in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I was very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We worked on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems. Here is my [thesis](https://duanby.github.io/files/boyan_defense_latex.pdf).
 
 Here is my [Curriculum Vitae](https://duanby.github.io/files/cv.pdf). 
 
@@ -51,7 +51,7 @@ the hypotheses. Built on the martingale analogs, we use a recent idea of “mask
 : We propose a method for multiple hypothesis testing with familywise error rate (FWER) control, called the i-FWER test. Most testing methods are predefined algorithms that do not allow modifications after observing the data. However, in practice, analysts tend to choose a promising algorithm after observing the data; unfortunately, this violates the validity of the conclusion. The i-FWER test allows much flexibility: a human (or a computer program acting on the human's behalf) may adaptively guide the algorithm in a data-dependent manner. We prove that our test controls FWER if the analysts adhere to a particular protocol of "masking" and "unmasking". We demonstrate via numerical experiments the power of our test under structured non-nulls and then explore new forms of masking.
 
 
-* Which Wilcoxon should we use? An interactive rank test and other alternatives <small>(Biometrical Journal, Special Issue on Multiple Comparisons Procedures, revision) [arxiv](https://arxiv.org/pdf/2009.05892.pdf) [code](https://github.com/duanby/interactive-rank) </small>
+* Which Wilcoxon should we use? An interactive rank test and other alternatives <small>(In submission) [arxiv](https://arxiv.org/pdf/2009.05892.pdf) [code](https://github.com/duanby/interactive-rank) </small>
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : Classical nonparametric tests to compare multiple samples, such as the Wilcoxon test, are often based on the ranks of observations. We design an interactive rank test called i-Wilcoxon—an analyst is allowed to adaptively guide the algorithm using observed outcomes, covariates, working models and prior knowledge—that guarantees type-I error control using martingales. Numerical experiments demonstrate the advantage of (an automated version of) our algorithm under heterogeneous treatment effects. The i-Wilcoxon test is first proposed for two-sample comparison with unpaired data, and then extended to paired data, multi-sample comparison, and sequential settings, thus also extending the Kruskal-Wallis and Friedman tests. As alternatives, we numerically investigate (non-interactive) covariance-adjusted variants of the Wilcoxon test, and provide practical recommendations based on the anticipated population properties of the treatment effects.
 

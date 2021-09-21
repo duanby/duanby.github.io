@@ -15,7 +15,7 @@ Here is my [Curriculum Vitae](https://duanby.github.io/files/cv.pdf).
 
 Education
 =======
-* Ph.D. in Statistics, 2021 (expected)
+* Ph.D. in Statistics, 2021
 : Carnegie Mellon University, Pittsburgh, USA
 
 * B.S. in Statistics, 2016

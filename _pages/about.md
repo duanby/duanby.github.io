@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Data Scientist in Google. Before that, I just got my Ph.D. degree in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I was very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We worked on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems. Here is my [thesis](https://duanby.github.io/files/boyan_defense_latex.pdf).
+I am a Data Scientist working at Google. My current work focus on ad performance and data-driven attribution. Before that, I got my Ph.D. degree in the Department of [Statistics & Data Science at Carnegie Mellon University](http://stat.cmu.edu). I was very fortunate to be advised by professor [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas/) and professor [Larry Wasserman](http://www.stat.cmu.edu/~larry/). We worked on developing interactive methodologies that leverage machine and human intelligence for various hypothesis testing problems. Here is my [thesis](https://duanby.github.io/files/boyan_defense_latex.pdf).
 
 Here is my [Curriculum Vitae](https://duanby.github.io/files/cv.pdf). 
 
@@ -38,7 +38,7 @@ Research Interests
 
 Papers and submissions
 =======
-* Interactive Martingale Tests for the Global Null <small> (EJS, 2020) [arxiv](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
+* Interactive Martingale Tests for the Global Null <small> (EJS, 2020) [arxiv,](https://arxiv.org/pdf/1909.07339.pdf) [code](https://github.com/duanby/interactive-martingale)</small>
 : **Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman**
 : Global null testing is a classical problem going back about a century to Fisher’s and Stouffer’s
 combination tests. We present simple martingale analogs of these classical tests,
@@ -46,17 +46,27 @@ which are applicable in two distinct settings: (a) the online setting in which t
 infinite sequence of p-values, and (b) the batch setting, where one uses prior knowledge to preorder
 the hypotheses. Built on the martingale analogs, we use a recent idea of “masking” p-values to develop a novel interactive test for the global null. It can take advantage of covariates and repeated user guidance to create a data-adaptive ordering that achieves higher detection power against structured alternatives.
 
-* Familywise error rate control by interactive unmasking <small>(ICML, 2020) [arxiv](https://arxiv.org/pdf/2002.08545.pdf) [code](https://github.com/duanby/i-FWER) [talk](https://icml.cc/virtual/2020/poster/6595)</small>
+* Familywise error rate control by interactive unmasking <small>(ICML, 2020) [arxiv,](https://arxiv.org/pdf/2002.08545.pdf) [code,](https://github.com/duanby/i-FWER) [talk](https://icml.cc/virtual/2020/poster/6595)</small>
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
 : We propose a method for multiple hypothesis testing with familywise error rate (FWER) control, called the i-FWER test. Most testing methods are predefined algorithms that do not allow modifications after observing the data. However, in practice, analysts tend to choose a promising algorithm after observing the data; unfortunately, this violates the validity of the conclusion. The i-FWER test allows much flexibility: a human (or a computer program acting on the human's behalf) may adaptively guide the algorithm in a data-dependent manner. We prove that our test controls FWER if the analysts adhere to a particular protocol of "masking" and "unmasking". We demonstrate via numerical experiments the power of our test under structured non-nulls and then explore new forms of masking.
 
 
-* Which Wilcoxon should we use? An interactive rank test and other alternatives <small>(In submission) [arxiv](https://arxiv.org/pdf/2009.05892.pdf) [code](https://github.com/duanby/interactive-rank) </small>
+* Interactive rank testing by betting <small>(Conference on Causal Learning and Reasoning, 2022) [arxiv,](https://arxiv.org/pdf/2009.05892.pdf) [code](https://github.com/duanby/interactive-rank) </small>
 : **Boyan Duan, Aaditya Ramdas, Larry Wasserman**
-: Classical nonparametric tests to compare multiple samples, such as the Wilcoxon test, are often based on the ranks of observations. We design an interactive rank test called i-Wilcoxon—an analyst is allowed to adaptively guide the algorithm using observed outcomes, covariates, working models and prior knowledge—that guarantees type-I error control using martingales. Numerical experiments demonstrate the advantage of (an automated version of) our algorithm under heterogeneous treatment effects. The i-Wilcoxon test is first proposed for two-sample comparison with unpaired data, and then extended to paired data, multi-sample comparison, and sequential settings, thus also extending the Kruskal-Wallis and Friedman tests. As alternatives, we numerically investigate (non-interactive) covariance-adjusted variants of the Wilcoxon test, and provide practical recommendations based on the anticipated population properties of the treatment effects.
+: In order to test if a treatment is perceptibly different from a placebo in a randomized experiment with
+covariates, classical nonparametric tests based on ranks of observations/residuals have been employed
+(eg: by Rosenbaum), with finite-sample valid inference enabled via permutations. This paper proposes
+a different principle on which to base inference: if — with access to all covariates and outcomes, but
+without access to any treatment assignments — one can form a ranking of the subjects that is sufficiently
+nonrandom (eg: mostly treated followed by mostly control), then we can confidently conclude that there
+must be a treatment effect. Based on a more nuanced, quantifiable, version of this principle, we design an
+interactive test called i-bet: the analyst forms a single permutation of the subjects one element at a time,
+and at each step the analyst bets toy money on whether that subject was actually treated or not, and
+learns the truth immediately after. The wealth process forms a real-valued measure of evidence against
+the global causal null, and we may reject the null at level α if the wealth ever crosses 1/α.
 
 
-* Interactive identification of individuals with positive treatment effect while controlling false discoveries <small> [arxiv](https://arxiv.org/pdf/2102.10778.pdf) [code](https://github.com/duanby/I-cube) [talk](https://www.selectiveinferenceseminar.com/past-talks) </small>
+* Interactive identification of individuals with positive treatment effect while controlling false discoveries <small> [arxiv,](https://arxiv.org/pdf/2102.10778.pdf) [code,](https://github.com/duanby/I-cube) [talk](https://www.selectiveinferenceseminar.com/past-talks) </small>
 : **Boyan Duan, Larry Wasserman, Aaditya Ramdas**
 : Out of the participants in a randomized experiment with anticipated heterogeneous treatment effects, is it possible to identify which ones have a positive treatment effect, even though each has only taken either treatment or control but not both? While subgroup analysis has received attention, claims about individual participants are more challenging. We frame the problem in terms of multiple hypothesis testing: we think of each individual as a null hypothesis (the potential outcomes are equal, for example) and aim to identify individuals for whom the null is false (the treatment potential outcome stochastically dominates the control, for example). We develop a novel algorithm that identifies such a subset, with nonasymptotic control of the false discovery rate (FDR). Our algorithm allows for interaction — a human data scientist (or a computer program acting on the human’s behalf) may adaptively guide the algorithm in a data-dependent manner to gain high identification power. We also propose several extensions: (a) relaxing the null to nonpositive effects, (b) moving from unpaired to paired samples, and (c) subgroup identification. We demonstrate via numerical experiments and theoretical analysis that the proposed method has valid FDR control in finite samples and reasonably high identification power.
 

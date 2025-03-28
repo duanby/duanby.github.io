@@ -65,7 +65,7 @@ and at each step the analyst bets toy money on whether that subject was actually
 learns the truth immediately after. The wealth process forms a real-valued measure of evidence against
 the global causal null, and we may reject the null at level α if the wealth ever crosses 1/α.
 
-* Data fission: splitting a single data point <small>(Journal of the American Statistical Association, 2023) [arxiv](https://arxiv.org/pdf/2112.11079)</small>
+* Data fission: splitting a single data point <small>(JASA, 2023) [arxiv](https://arxiv.org/pdf/2112.11079)</small>
 : **James Leiner, Boyan Duan, Larry Wasserman, Aaditya Ramdas**
 : Suppose we observe a random vector X from some distribution in a known family with unknown
 parameters. We ask the following question: when is it possible to split X into two pieces f(X)

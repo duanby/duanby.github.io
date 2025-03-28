@@ -65,10 +65,26 @@ and at each step the analyst bets toy money on whether that subject was actually
 learns the truth immediately after. The wealth process forms a real-valued measure of evidence against
 the global causal null, and we may reject the null at level α if the wealth ever crosses 1/α.
 
+* Data fission: splitting a single data point <small>(Journal of the American Statistical Association, 2023) [arxiv](https://arxiv.org/pdf/2112.11079)</small>
+: **James Leiner, Boyan Duan, Larry Wasserman, Aaditya Ramdas**
+: Suppose we observe a random vector X from some distribution in a known family with unknown
+parameters. We ask the following question: when is it possible to split X into two pieces f(X)
+and g(X) such that neither part is sufficient to reconstruct X by itself, but both together can
+recover X fully, and their joint distribution is tractable? One common solution to this problem
+when multiple samples of X are observed is data splitting, but Rasines and Young (2022) offers
+an alternative approach that uses additive Gaussian noise — this enables post-selection inference
+in finite samples for Gaussian distributed data and asymptotically when errors are non-Gaussian.
+In this paper, we offer a more general methodology for achieving such a split in finite samples by
+borrowing ideas from Bayesian inference to yield a (frequentist) solution that can be viewed as
+a continuous analog of data splitting. We call our method data fission, as an alternative to data
+splitting, data carving and p-value masking. We exemplify the method on several prototypical
+applications, such as post-selection inference for trend filtering and other regression problems, and
+effect size estimation after interactive multiple testing.
 
-* Interactive identification of individuals with positive treatment effect while controlling false discoveries <small> [arxiv,](https://arxiv.org/pdf/2102.10778.pdf) [code,](https://github.com/duanby/I-cube) [talk](https://www.selectiveinferenceseminar.com/past-talks) </small>
+* Interactive identification of individuals with positive treatment effect while controlling false discoveries <small>(Journal of Causal Inference, 2024) [arxiv,](https://arxiv.org/pdf/2102.10778.pdf) [code,](https://github.com/duanby/I-cube) [talk](https://www.selectiveinferenceseminar.com/past-talks) </small>
 : **Boyan Duan, Larry Wasserman, Aaditya Ramdas**
 : Out of the participants in a randomized experiment with anticipated heterogeneous treatment effects, is it possible to identify which ones have a positive treatment effect, even though each has only taken either treatment or control but not both? While subgroup analysis has received attention, claims about individual participants are more challenging. We frame the problem in terms of multiple hypothesis testing: we think of each individual as a null hypothesis (the potential outcomes are equal, for example) and aim to identify individuals for whom the null is false (the treatment potential outcome stochastically dominates the control, for example). We develop a novel algorithm that identifies such a subset, with nonasymptotic control of the false discovery rate (FDR). Our algorithm allows for interaction — a human data scientist (or a computer program acting on the human’s behalf) may adaptively guide the algorithm in a data-dependent manner to gain high identification power. We also propose several extensions: (a) relaxing the null to nonpositive effects, (b) moving from unpaired to paired samples, and (c) subgroup identification. We demonstrate via numerical experiments and theoretical analysis that the proposed method has valid FDR control in finite samples and reasonably high identification power.
+
 
 Previous Projects
 =======
